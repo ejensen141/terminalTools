@@ -17,4 +17,16 @@ web <homepage>  will take you to whatever is set as homepage in the script... yo
 
 
 
+the open command here is not installed by default 
+pass 
+./install open 
+
+to install the open command
+
+this is a shell implementation of my C program "open"
+this simply uses the system default xdg-open 
+
+my C program "open" does not ... it is stand alone ...
+choose which ever one floats your boat!
+
 

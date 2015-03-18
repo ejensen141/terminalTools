@@ -1,0 +1,12 @@
+#!/bin/bash
+
+
+args=("$@")
+
+arg1=$1
+
+
+$arg1 </dev/null &>/dev/null &
+disown
+
+
