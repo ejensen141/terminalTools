@@ -1,0 +1,23 @@
+
+#!/bin/bash
+args=("$@")
+
+
+#echo Number of args: $#
+
+N=$(expr $# - 1)
+
+#echo $N
+arg="$1"
+for i in `seq 1 $N`;
+do
+arg="$arg+${args[i]}"
+
+done
+#echo $arg
+
+chromium --app=https://www.google.com/search?q=$arg  </dev/null &>/dev/null &
+
+disown
+
+

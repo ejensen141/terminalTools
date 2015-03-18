@@ -1,0 +1,17 @@
+
+#!/bin/bash
+args=("$@")
+
+homepage=google.com
+
+if [ $args == "homepage" ]
+then
+args=$homepage
+fi
+
+chromium $args  </dev/null &>/dev/null &
+
+disown
+
+
+

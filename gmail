@@ -1,0 +1,6 @@
+
+#!/bin/bash
+
+
+chromium --app=http://gmail.com </dev/null &>/dev/null &
+disown
