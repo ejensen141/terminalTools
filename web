@@ -2,16 +2,36 @@
 #!/bin/bash
 args=("$@")
 
-homepage=google.com
+homepage=ejensen141.github.io
+browser=chromium
+
+
+if [ $# -eq 0 ] 
+then
+echo "Usage:    web <url>  "
+echo ""
+echo "Options:  -f 	opens a file from current dir. in browser"
+fi
+
+if [ $# -gt 0 ]
+then
 
 if [ $args == "homepage" ]
 then
 args=$homepage
 fi
 
-chromium $args  </dev/null &>/dev/null &
+
+if [ $1 == "-f" ]
+then
+args=$PWD/$2
+fi
+
+
+
+$browser $args  </dev/null &>/dev/null &
 
 disown
 
 
-
+fi
