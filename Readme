@@ -1,0 +1,20 @@
+Usage:
+
+google <any search here>
+
+gmail .... takes you to gmail
+
+web <http://mysite.com>
+
+
+
+TO USE YOU MUST HAVE chromium installed....
+
+these are simple calls to the chromium app to display information
+
+
+web <homepage>  will take you to whatever is set as homepage in the script... you can change it to whatever you would like 
+
+
+
+
