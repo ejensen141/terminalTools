@@ -9,7 +9,7 @@ sudo cp gmail /usr/bin
 sudo cp web /usr/bin
 sudo cp google-private /usr/bin
 sudo cp run /usr/bin
-
+sudo cp update-cloud /usr/bin
 
 
 if [ $1 ]

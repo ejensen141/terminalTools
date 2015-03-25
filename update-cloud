@@ -1,0 +1,13 @@
+#!/bin/bash
+
+folder=$1
+
+
+if [ "$1" == "" ]
+then
+folder="."
+fi
+
+source .cloudyrc
+
+rsync  -avz $folder $username@$remote_ip:$remote_location
