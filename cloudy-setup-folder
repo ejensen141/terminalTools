@@ -1,0 +1,30 @@
+#!/bin/bash
+#setup .cloudyrc files
+
+
+file=.cloudyrc
+
+echo "Setup .cloudyrc files ";
+
+echo "";
+
+echo "Please enter domain name of cloud (or IP adress)";
+
+read domain
+
+echo "";
+echo "Please enter username on cloud";
+
+read user
+
+
+echo "";
+echo "Please the folder name on cloud (Relative to User Home Directory)";
+
+read foldername;
+
+location=/home/$user/$foldername
+
+echo -e "username=$user\nremote_ip=$domain\nremote_location=$location\n" > cl
+
+

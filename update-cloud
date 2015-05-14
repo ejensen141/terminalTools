@@ -10,4 +10,4 @@ fi
 
 source .cloudyrc
 
-rsync  -avz $folder $username@$remote_ip:$remote_location
+rsync  -avz --delete $folder $username@$remote_ip:$remote_location 

@@ -16,7 +16,7 @@ arg="$arg+${args[i]}"
 done
 #echo $arg
 
-chromium --app=https://www.google.com/search?q=$arg  </dev/null &>/dev/null &
+chromium https://www.google.com/search?q=$arg  </dev/null &>/dev/null &
 
 disown
 
