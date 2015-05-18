@@ -25,6 +25,11 @@ web -git
 ```
 this takes you to the site of your git repo. if available.
 
+```bash 
+web -f file
+```
+
+This command opens "file" in the browser. If no argument is passed it opens the directory in the browser.
 
 
 ## Open
