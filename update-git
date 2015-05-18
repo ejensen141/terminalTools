@@ -6,15 +6,18 @@ args=$@
 
 if [ $# -eq 0 ]
 then
-args=" \"No Comment\""
+arg=" \"No Comment\""
 fi
+
+
+
 
 echo Will be posted with $args
 
 
 git add *
 
-git commit -m $args
+git commit -m "No Comment"
 
 git push
 
