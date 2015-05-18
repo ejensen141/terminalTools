@@ -4,6 +4,8 @@ args=("$@")
 
 homepage=ejensen141.github.io
 browser=chromium
+github="$(cat '.git/FETCH_HEAD' | tr ' ' '\n' | grep https)"
+
 
 
 if [ $# -eq 0 ] 
@@ -11,16 +13,22 @@ then
 echo "Usage:    web <url>  "
 echo ""
 echo "Options:  -f 	opens a file from current dir. in browser"
+echo "	-git 	opens this git repo on github"
+echo "	-homepage  opens your homepage that you set in this file!"
 fi
 
 if [ $# -gt 0 ]
 then
 
-if [ $args == "homepage" ]
+if [ $1 == "-homepage" ]
 then
 args=$homepage
 fi
 
+if [ $1 == "-git" ]
+then
+args=$github
+fi
 
 if [ $1 == "-f" ]
 then
