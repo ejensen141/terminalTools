@@ -4,10 +4,7 @@
 
 args=$@ 
 
-if [ $# -eq 0 ]
-then
-arg=" \"No Comment\""
-fi
+
 
 
 
@@ -17,7 +14,13 @@ echo Will be posted with $args
 
 git add *
 
+
+if [ $# -eq 0 ]
+then
 git commit -m "No Comment"
+fi
+
+
 
 git push
 
