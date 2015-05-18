@@ -1,6 +1,7 @@
 # TerminalTools 
 
 ##Quick Usage:
+```bash
 
 google search_here
 
@@ -11,7 +12,7 @@ gmail  ->  takes you to gmail in app mode
 web <http://mysite.com>
 
 update-git my comment 		this will run git add * git commit and push for you
-
+```
 
 ## Web 
 
