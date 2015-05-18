@@ -1,4 +1,4 @@
-[Usage:]
+# [Usage:]
 
 google <any search here>
 
@@ -6,6 +6,10 @@ gmail .... takes you to gmail
 
 web <http://mysite.com>
 
+update-git my comment 		this will run git add * git commit and push for you
+
+
+## web 
 
 
 TO USE YOU MUST HAVE chromium installed....
