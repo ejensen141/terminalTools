@@ -4,7 +4,7 @@ args=("$@")
 
 homepage=ejensen141.github.io
 browser=chromium
-github="$(cat '.git/config'| grep https | tr ' ' '\n' | grep https)"
+
 
 
 
@@ -27,6 +27,8 @@ fi
 
 if [ $1 == "-git" ]
 then
+github="$(cat '.git/config'| grep https | tr ' ' '\n' | grep https)"
+
 args=$github
 fi
 
