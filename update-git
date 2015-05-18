@@ -2,7 +2,7 @@
 
 
 
-args="$1"
+args="$@"
 
 if [ $# -eq 0 ]
 then
