@@ -1,15 +1,19 @@
-# [Usage:]
+# TerminalTools 
 
-google <any search here>
+##Quick Usage:
 
-gmail .... takes you to gmail
+google search_here
+
+google-private search_here
+
+gmail  ->  takes you to gmail in app mode
 
 web <http://mysite.com>
 
 update-git my comment 		this will run git add * git commit and push for you
 
 
-## web 
+## Web 
 
 
 TO USE YOU MUST HAVE chromium installed....
