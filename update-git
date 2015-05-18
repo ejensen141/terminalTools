@@ -12,6 +12,7 @@ fi
 echo Will be posted with \"$args\"
 
 
+
 git add *
 
 git commit -m '$args'
