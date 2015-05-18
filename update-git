@@ -2,7 +2,7 @@
 
 
 
-args=$@ 
+args=$@
 
 
 echo Will be posted with $args

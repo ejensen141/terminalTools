@@ -17,11 +17,6 @@ update-git my comment 		this will run git add * git commit and push for you
 ## Web 
 
 
-TO USE YOU MUST HAVE chromium installed....
-
-these are simple calls to the chromium app to display information
-
-
 web <homepage>  will take you to whatever is set as homepage in the script... you can change it to whatever you would like 
 
 
@@ -37,5 +32,12 @@ this simply uses the system default xdg-open
 
 my C program "open" does not ... it is stand alone ...
 choose which ever one floats your boat!
+
+
+## Dependencies 
+
+TO USE YOU MUST HAVE chromium installed....
+
+some of these scripts are simple calls to the chromium app to display information
 
 
