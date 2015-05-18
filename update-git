@@ -11,11 +11,10 @@ fi
 
 echo Will be posted with $args
 
-echo $args
 
 git add *
 
-git commit -m  $args
+git commit -m $args
 
 git push
 
