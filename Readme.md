@@ -17,9 +17,15 @@ update-git my comment 		this will run git add * git commit and push for you
 ## Web 
 
 
-web <homepage>  will take you to whatever is set as homepage in the script... you can change it to whatever you would like 
+web -homepage  will take you to whatever is set as homepage in the script... you can change it to whatever you would like 
+
+web -git 
+
+this takes you to the site of your git repo. if available.
 
 
+
+## Open
 
 the open command here is not installed by default 
 pass 
