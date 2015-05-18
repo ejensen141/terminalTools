@@ -4,7 +4,7 @@ args=("$@")
 
 homepage=ejensen141.github.io
 browser=chromium
-github="$(cat '.git/FETCH_HEAD' | tr ' ' '\n' | grep https)"
+github="$(cat '.git/config'| grep https | tr ' ' '\n' | grep https)"
 
 
 
