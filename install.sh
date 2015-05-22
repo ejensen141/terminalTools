@@ -10,7 +10,11 @@ sudo cp web /usr/bin
 sudo cp google-private /usr/bin
 sudo cp run /usr/bin
 sudo cp update-git /usr/bin
+sudo cp srun /usr/bin
 
+cd bin2hex && make && cd ..
+
+sudo cp bin2hex/bin2hex /usr/bin
 
 if [ $1 ]
 then

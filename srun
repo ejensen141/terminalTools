@@ -1,0 +1,18 @@
+#!/bin/bash
+
+
+args=("$@")
+
+if [ $# -eq 0 ]
+then
+echo "Usage:    run <program>  "
+echo ""
+echo "Runs a GUI program detached from terminal with Super User Privileges"
+fi
+
+
+arg1=$@
+
+
+sudo $arg1 </dev/null &>/dev/null &
+disown
